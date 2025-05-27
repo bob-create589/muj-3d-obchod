@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  border-bottom: 5px solid #388e3c;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+header a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.produkty {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.produkt {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.2s;
+}
+
+.produkt:hover {
+  transform: scale(1.03);
+}
+
+.produkt img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.produkt h3 {
+  margin: 10px 0 5px;
+  font-size: 1.1em;
+}
+
+.produkt p {
+  font-size: 1em;
+  font-weight: bold;
+  color: #4caf50;
+}
